@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.footer-margin {
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.textConatiner {
+  font-size: 150px;
+  font-weight: 700;
+}

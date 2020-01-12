@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Layout, Menu, Breadcrumb } from "antd";
+import { Row, Col } from "antd";
+import { useTransition, animated, useSpring } from "react-spring";
 
-function App() {
+import "antd/dist/antd.css";
+import "./index.css";
+import "./App.css";
+import FooterComponent from "./components/footer/FooterComponent";
+import HeaderComponent from "./components/header/HeaderComponent";
+import Main from "./Main";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout className="layout">
+      <HeaderComponent />
+      <Main />
+      <FooterComponent />
+    </Layout>
   );
 }
-
-export default App;
