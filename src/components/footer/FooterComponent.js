@@ -2,6 +2,7 @@ import React from "react";
 import { Layout } from "antd";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
+import TrackingInExpandText from "../textAnimation/TrackingInExpandText";
 
 export default function FooterComponent() {
   const { Footer } = Layout;
@@ -20,13 +21,19 @@ export default function FooterComponent() {
             <Col span={20}>
               <Row>
                 <Col span={5}>
-                  <a>注册报名</a>
+                  <a>
+                    <TrackingInExpandText fontSize={18} text={"注册报名"} />
+                  </a>
                 </Col>
                 <Col span={5}>
-                  <a>选择课程</a>
+                  <a>
+                    <TrackingInExpandText fontSize={18} text={"选择课程"} />
+                  </a>
                 </Col>
                 <Col span={5}>
-                  <a>实习就业</a>
+                  <a>
+                    <TrackingInExpandText fontSize={18} text={"实习就业"} />
+                  </a>
                 </Col>
                 <Col span={9} />
               </Row>

@@ -1,0 +1,41 @@
+.iconText-container {
+  /* width: 300px; */
+  color: white;
+  /* margin: 0 50% 0 50%; */
+}
+
+.iconText-sub-title {
+  position: absolute;
+  color: #f0f8ff;
+  left: 100px;
+  top: 30px;
+  font-size: 12px;
+  color: gray;
+  z-index: 1;
+}
+
+.iconText-title {
+  position: absolute;
+  color: rgb(74, 87, 99);
+  left: 100px;
+  top: 45px;
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+}
+.iconText-icon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 30px;
+  top: 35px;
+  z-index: 1;
+}
+
+.iconText-rect {
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  background-color: gray;
+  left: 20px;
+}
